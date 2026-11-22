@@ -48,11 +48,11 @@ class Spider(BaseSpider):
         },
         "ffzy": {
             "name": "🎞️非凡资源",
-            "api": "http://ffzy5.tv/api.php/provide/vod/"
+            "api": "http://ffzy1.tv/api.php/provide/vod/"
         },
         "suoni": {
             "name": "🎧索尼资源",
-            "api": "http://suoniapi.com/api.php/provide/vod/"
+            "api": "https://suoniapi.com/api.php/provide/vod/"
         },
         "jisu": {
             "name": "🚀极速资源",
@@ -60,7 +60,7 @@ class Spider(BaseSpider):
         },
         "bfzy": {
             "name": "🌪️暴风资源",
-            "api": "https://bfzyapi.com/api.php/provide/vod/"
+            "api": "https://app.bfzyapi.com/api.php/provide/vod/"
         },
         "ikun": {
             "name": "🏀iKun资源",
@@ -80,7 +80,7 @@ class Spider(BaseSpider):
         },
         "hongniu": {
             "name": "🐂红牛资源",
-            "api": "https://www.hongniuzy2.com/api.php/provide/vod/"
+            "api": "https://www.hongniuzy3.com/api.php/provide/vod/"
         },
         "wujin": {
             "name": "♾️无尽资源",
