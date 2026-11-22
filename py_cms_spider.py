@@ -55,7 +55,7 @@ class Spider(BaseSpider):
         },
         "ffzy": {
             "name": "🎞️非凡资源",
-            "api": "http://ffzy1.tv/api.php/provide/vod/",
+            "api": "http://ffzy5.tv/api.php/provide/vod/",
             "flag_keys": ["ffm3u8", "ffzy"]
         },
         "suoni": {
@@ -95,7 +95,7 @@ class Spider(BaseSpider):
         },
         "hongniu": {
             "name": "🐂红牛资源",
-            "api": "https://www.hongniuzy3.com/api.php/provide/vod/",
+            "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
             "flag_keys": ["hnm3u8", "hongniu"]
         },
         "wujin": {
@@ -110,7 +110,7 @@ class Spider(BaseSpider):
         },
         "baidu": {
             "name": "🐾百度资源",
-            "api": "http://api.apibdzy.com/api.php/provide/vod/",
+            "api": "https://api.apibdzy.com/api.php/provide/vod/",
             "flag_keys": ["bdxm3u8", "bdzy"]
         },
         "360zy": {
@@ -171,7 +171,7 @@ class Spider(BaseSpider):
         return "🎭短剧聚合专区Pro" if getattr(self, "mode", "all") == "duanju" else "🐍全聚合CMS采集引擎Pro"
 
     def init(self, extend=""):
-        self.default_site = "jisu"
+        self.default_site = "ffzy"
         self.mode = "all"             # "all" (全量综合) 或 "duanju" (短剧聚合专区)
         self.remove_ad = True
         self.aggregate_detail = True  # 是否在详情页自动并发聚合其余站点的同名播放源
