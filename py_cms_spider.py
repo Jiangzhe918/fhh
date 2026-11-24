@@ -55,7 +55,7 @@ class Spider(BaseSpider):
         },
         "ffzy": {
             "name": "🎞️非凡资源",
-            "api": "http://ffzy5.tv/api.php/provide/vod/",
+            "api": "http://ffzy1.tv/api.php/provide/vod/",
             "flag_keys": ["ffm3u8", "ffzy"]
         },
         "suoni": {
@@ -70,12 +70,12 @@ class Spider(BaseSpider):
         },
         "bfzy": {
             "name": "🌪️暴风资源",
-            "api": "https://app.bfzyapi.com/api.php/provide/vod/",
+            "api": "https://bfzyapi.com/api.php/provide/vod/",
             "flag_keys": ["bfzym3u8", "bfzy"]
         },
         "ikun": {
             "name": "🏀iKun资源",
-            "api": "https://ikunzyapi.com/api.php/provide/vod/",
+            "api": "http://ikunzyapi.com/api.php/provide/vod/",
             "flag_keys": ["ikm3u8", "ikun"]
         },
         "wolong": {
@@ -95,12 +95,12 @@ class Spider(BaseSpider):
         },
         "hongniu": {
             "name": "🐂红牛资源",
-            "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+            "api": "https://www.hongniuzy3.com/api.php/provide/vod/",
             "flag_keys": ["hnm3u8", "hongniu"]
         },
         "wujin": {
             "name": "♾️无尽资源",
-            "api": "https://api.wujinapi.com/api.php/provide/vod/",
+            "api": "https://api.wujinapi.me/api.php/provide/vod/",
             "flag_keys": ["wjm3u8", "wujin"]
         },
         "haohua": {
@@ -171,7 +171,7 @@ class Spider(BaseSpider):
         return "🎭短剧聚合专区Pro" if getattr(self, "mode", "all") == "duanju" else "🐍全聚合CMS采集引擎Pro"
 
     def init(self, extend=""):
-        self.default_site = "suoni"
+        self.default_site = "guangsu"
         self.mode = "all"             # "all" (全量综合) 或 "duanju" (短剧聚合专区)
         self.remove_ad = True
         self.aggregate_detail = True  # 是否在详情页自动并发聚合其余站点的同名播放源
