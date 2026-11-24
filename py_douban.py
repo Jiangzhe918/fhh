@@ -60,11 +60,11 @@ class Spider(BaseSpider):
         },
         "bfzy": {
             "name": "🌪️暴风资源",
-            "api": "http://bfzyapi.com/api.php/provide/vod/"
+            "api": "https://app.bfzyapi.com/api.php/provide/vod/"
         },
         "ikun": {
             "name": "🏀iKun资源",
-            "api": "http://ikunzyapi.com/api.php/provide/vod/"
+            "api": "https://ikunzyapi.com/api.php/provide/vod/"
         },
         "wolong": {
             "name": "🐉卧龙资源",
@@ -84,7 +84,7 @@ class Spider(BaseSpider):
         },
         "wujin": {
             "name": "♾️无尽资源",
-            "api": "https://api.wujinapi.me/api.php/provide/vod/"
+            "api": "https://api.wujinapi.com/api.php/provide/vod/"
         },
         "haohua": {
             "name": "💎豪华资源",
