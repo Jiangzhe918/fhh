@@ -52,7 +52,7 @@ class Spider(BaseSpider):
         },
         "suoni": {
             "name": "🎧索尼资源",
-            "api": "https://suoniapi.com/api.php/provide/vod/"
+            "api": "http://suoniapi.com/api.php/provide/vod/"
         },
         "jisu": {
             "name": "🚀极速资源",
@@ -96,7 +96,7 @@ class Spider(BaseSpider):
         },
         "360zy": {
             "name": "🛡️360资源",
-            "api": "https://360zy.com/api.php/provide/vod/"
+            "api": "https://360zy5.com/api.php/provide/vod/"
         },
         "haiwaikan": {
             "name": "🌍海外看",
