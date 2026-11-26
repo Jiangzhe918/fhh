@@ -48,7 +48,7 @@ class Spider(BaseSpider):
         },
         "ffzy": {
             "name": "🎞️非凡资源",
-            "api": "http://ffzy1.tv/api.php/provide/vod/"
+            "api": "http://ffzy5.tv/api.php/provide/vod/"
         },
         "suoni": {
             "name": "🎧索尼资源",
@@ -64,7 +64,7 @@ class Spider(BaseSpider):
         },
         "ikun": {
             "name": "🏀iKun资源",
-            "api": "http://ikunzyapi.com/api.php/provide/vod/"
+            "api": "https://ikunzyapi.com/api.php/provide/vod/"
         },
         "wolong": {
             "name": "🐉卧龙资源",

@@ -55,7 +55,7 @@ class Spider(BaseSpider):
         },
         "ffzy": {
             "name": "🎞️非凡资源",
-            "api": "http://ffzy1.tv/api.php/provide/vod/",
+            "api": "http://ffzy5.tv/api.php/provide/vod/",
             "flag_keys": ["ffm3u8", "ffzy"]
         },
         "suoni": {
@@ -75,7 +75,7 @@ class Spider(BaseSpider):
         },
         "ikun": {
             "name": "🏀iKun资源",
-            "api": "http://ikunzyapi.com/api.php/provide/vod/",
+            "api": "https://ikunzyapi.com/api.php/provide/vod/",
             "flag_keys": ["ikm3u8", "ikun"]
         },
         "wolong": {

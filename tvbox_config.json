@@ -29,18 +29,18 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "📡 vbskycn 央卫全聚合直播",
+      "name": "⚡ Guovin 自动测速电视直播",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt",
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "⚡ Guovin 自动测速电视直播",
+      "name": "📡 vbskycn 央卫全聚合直播",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt",
+      "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
@@ -128,16 +128,7 @@
       "key": "ffzy_cms",
       "name": "🎞️ 非凡资源 (老牌综合/豆瓣高分)",
       "type": 1,
-      "api": "http://ffzy1.tv/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "ikun_cms",
-      "name": "🏀 iKun资源 (短剧热播/极速切片)",
-      "type": 1,
-      "api": "http://ikunzyapi.com/api.php/provide/vod/",
+      "api": "http://ffzy5.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -174,6 +165,15 @@
       "name": "💎 豪华资源 (多线容灾/短剧高更)",
       "type": 1,
       "api": "https://hhzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ikun_cms",
+      "name": "🏀 iKun资源 (短剧热播/极速切片)",
+      "type": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
