@@ -110,12 +110,12 @@ class Spider(BaseSpider):
         },
         "baidu": {
             "name": "🐾百度资源",
-            "api": "https://api.apibdzy.com/api.php/provide/vod/",
+            "api": "http://api.apibdzy.com/api.php/provide/vod/",
             "flag_keys": ["bdxm3u8", "bdzy"]
         },
         "360zy": {
             "name": "🛡️360资源",
-            "api": "https://360zy.com/api.php/provide/vod/",
+            "api": "https://360zy5.com/api.php/provide/vod/",
             "flag_keys": ["360m3u8", "360zy"]
         },
         "haiwaikan": {
@@ -171,7 +171,7 @@ class Spider(BaseSpider):
         return "🎭短剧聚合专区Pro" if getattr(self, "mode", "all") == "duanju" else "🐍全聚合CMS采集引擎Pro"
 
     def init(self, extend=""):
-        self.default_site = "suoni"
+        self.default_site = "ffzy"
         self.mode = "all"             # "all" (全量综合) 或 "duanju" (短剧聚合专区)
         self.remove_ad = True
         self.aggregate_detail = True  # 是否在详情页自动并发聚合其余站点的同名播放源

@@ -92,11 +92,11 @@ class Spider(BaseSpider):
         },
         "baidu": {
             "name": "🐾百度资源",
-            "api": "https://api.apibdzy.com/api.php/provide/vod/"
+            "api": "http://api.apibdzy.com/api.php/provide/vod/"
         },
         "360zy": {
             "name": "🛡️360资源",
-            "api": "https://360zy.com/api.php/provide/vod/"
+            "api": "https://360zy5.com/api.php/provide/vod/"
         },
         "haiwaikan": {
             "name": "🌍海外看",
